@@ -9,7 +9,6 @@ use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\View\View;
-use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
 class AuthenticatedSessionController extends Controller
 {
@@ -25,15 +24,13 @@ class AuthenticatedSessionController extends Controller
      * Handle an incoming authentication request.
      */
     public function store(LoginRequest $request): RedirectResponse
-{
-    $request->authenticate();
+    {
+        $request->authenticate();
 
-    $request->session()->regenerate();
+        $request->session()->regenerate();
 
-    return redirect()->intended(RouteServiceProvider::HOME);
-}
-
-    
+        return redirect()->intended(RouteServiceProvider::HOME);
+    }
 
     /**
      * Destroy an authenticated session.
