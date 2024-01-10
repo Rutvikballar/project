@@ -112,7 +112,7 @@
 <div class="outer-box">
 <div class="main-box">
 <div class="logo-box">
-    <figure class="logo"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></figure>
+    <figure class="logo"><a href="index.html"><img src="{{ asset('frontend/assets/images/logo.png') }}" alt=""></a></figure>
 </div>
 <div class="menu-area clearfix">
     <!--Mobile Navigation Toggler-->
@@ -725,7 +725,7 @@
                                 <div class="lower-content">
                                     <div class="author-info clearfix">
                                         <div class="author pull-left">
-                                            <figure class="author-thumb"><img src="assets/images/feature/author-1.jpg" alt=""></figure>
+                                            <figure class="author-thumb"><img src="{{ asset('frontend/assets/images/feature/author-1.jpg') }}" alt=""></figure>
                                             <h6>Michael Bean</h6>
                                         </div>
                                         <div class="buy-btn pull-right"><a href="property-details.html">For Buy</a></div>
@@ -758,7 +758,7 @@
                         <div class="feature-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <figure class="image"><img src="assets/images/feature/feature-2.jpg" alt=""></figure>
+                                    <figure class="image"><img src="{{ asset('frontend/assets/images/feature/feature-2.jpg') }}" alt=""></figure>
                                     <div class="batch"><i class="icon-11"></i></div>
                                     <span class="category">Featured</span>
                                 </div>
@@ -796,14 +796,14 @@
                         <div class="feature-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <figure class="image"><img src="assets/images/feature/feature-3.jpg" alt=""></figure>
+                                    <figure class="image"><img src="{{ asset('frontend/assets/images/feature/feature-3.jpg') }}" alt=""></figure>
                                     <div class="batch"><i class="icon-11"></i></div>
                                     <span class="category">Featured</span>
                                 </div>
                                 <div class="lower-content">
                                     <div class="author-info clearfix">
                                         <div class="author pull-left">
-                                            <figure class="author-thumb"><img src="assets/images/feature/author-3.jpg" alt=""></figure>
+                                            <figure class="author-thumb"><img src="{{ asset('frontend/assets/images/feature/author-3.jpg') }}" alt=""></figure>
                                             <h6>Keira Mel</h6>
                                         </div>
                                         <div class="buy-btn pull-right"><a href="property-details.html">Sold Out</a></div>
@@ -838,7 +838,7 @@
 
 
         <!-- video-section -->
-        <section class="video-section centred" style="background-image: url(assets/images/background/video-1.jpg);">
+        <section class="video-section centred" style="background-image: url({{ asset('frontend/assets/images/background/video-1.jpg') }});">
             <div class="auto-container">
                 <div class="video-inner">
                     <div class="video-btn">
@@ -864,14 +864,14 @@
                         <div class="feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <figure class="image"><img src="assets/images/feature/feature-1.jpg" alt=""></figure>
+                                    <figure class="image"><img src="{{ asset('frontend/assets/images/feature/feature-1.jpg') }}" alt=""></figure>
                                     <div class="batch"><i class="icon-11"></i></div>
                                     <span class="category">Featured</span>
                                 </div>
                                 <div class="lower-content">
                                     <div class="author-info clearfix">
                                         <div class="author pull-left">
-                                            <figure class="author-thumb"><img src="assets/images/feature/author-1.jpg" alt=""></figure>
+                                            <figure class="author-thumb"><img src="{{ asset('frontend/assets/images/feature/author-1.jpg') }}" alt=""></figure>
                                             <h6>Michael Bean</h6>
                                         </div>
                                         <div class="buy-btn pull-right"><a href="property-details.html">For Buy</a></div>
@@ -906,14 +906,14 @@
                         <div class="feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <figure class="image"><img src="assets/images/feature/feature-1.jpg" alt=""></figure>
+                                    <figure class="image"><img src="{{ asset('frontend/assets/images/feature/feature-1.jpg') }}" alt=""></figure>
                                     <div class="batch"><i class="icon-11"></i></div>
                                     <span class="category">Featured</span>
                                 </div>
                                 <div class="lower-content">
                                     <div class="author-info clearfix">
                                         <div class="author pull-left">
-                                            <figure class="author-thumb"><img src="assets/images/feature/author-1.jpg" alt=""></figure>
+                                            <figure class="author-thumb"><img src="{{ asset('frontend/assets/images/feature/author-1.jpg') }}" alt=""></figure>
                                             <h6>Michael Bean</h6>
                                         </div>
                                         <div class="buy-btn pull-right"><a href="property-details.html">For Buy</a></div>
@@ -946,14 +946,14 @@
                         <div class="feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <figure class="image"><img src="assets/images/feature/feature-1.jpg" alt=""></figure>
+                                    <figure class="image"><img src="{{ asset('frontend/assets/images/feature/feature-1.jpg') }}" alt=""></figure>
                                     <div class="batch"><i class="icon-11"></i></div>
                                     <span class="category">Featured</span>
                                 </div>
                                 <div class="lower-content">
                                     <div class="author-info clearfix">
                                         <div class="author pull-left">
-                                            <figure class="author-thumb"><img src="assets/images/feature/author-1.jpg" alt=""></figure>
+                                            <figure class="author-thumb"><img src="{{ asset('frontend/assets/images/feature/author-1.jpg') }}" alt=""></figure>
                                             <h6>Michael Bean</h6>
                                         </div>
                                         <div class="buy-btn pull-right"><a href="property-details.html">For Buy</a></div>
@@ -994,7 +994,7 @@
 
         <!-- testimonial-section end -->
         <section class="testimonial-section bg-color-1 centred">
-            <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-1.png);"></div>
+            <div class="pattern-layer" style="background-image: url({{ asset('frontend/assets/images/shape/shape-1.png') }});"></div>
             <div class="auto-container">
                 <div class="sec-title">
                     <h5>Testimonials</h5>
@@ -1003,7 +1003,7 @@
                 <div class="single-item-carousel owl-carousel owl-theme owl-dots-none nav-style-one">
                     <div class="testimonial-block-one">
                         <div class="inner-box">
-                            <figure class="thumb-box"><img src="assets/images/resource/testimonial-1.jpg" alt=""></figure>
+                            <figure class="thumb-box"><img src="{{ asset('frontend/assets/images/resource/testimonial-1.jpg') }}" alt=""></figure>
                             <div class="text">
                                 <p>Our goal each day is to ensure that our residents’ needs are not only met but exceeded. To make that happen we are committed to provid ing an environment in which residents can enjoy.</p>
                             </div>
@@ -1015,7 +1015,7 @@
                     </div>
                     <div class="testimonial-block-one">
                         <div class="inner-box">
-                            <figure class="thumb-box"><img src="assets/images/resource/testimonial-2.jpg" alt=""></figure>
+                            <figure class="thumb-box"><img src="{{ asset('frontend/assets/images/resource/testimonial-2.jpg') }}" alt=""></figure>
                             <div class="text">
                                 <p>Our goal each day is to ensure that our residents’ needs are not only met but exceeded. To make that happen we are committed to provid ing an environment in which residents can enjoy.</p>
                             </div>
@@ -1027,7 +1027,7 @@
                     </div>
                     <div class="testimonial-block-one">
                         <div class="inner-box">
-                            <figure class="thumb-box"><img src="assets/images/resource/testimonial-1.jpg" alt=""></figure>
+                            <figure class="thumb-box"><img src="{{ asset('frontend/assets/images/resource/testimonial-1.jpg') }}" alt=""></figure>
                             <div class="text">
                                 <p>Our goal each day is to ensure that our residents’ needs are not only met but exceeded. To make that happen we are committed to provid ing an environment in which residents can enjoy.</p>
                             </div>
@@ -1106,7 +1106,7 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 masonry-item small-column all illustration brand marketing software">
                             <div class="place-block-one">
                                 <div class="inner-box">
-                                    <figure class="image-box"><img src="assets/images/resource/place-1.jpg" alt=""></figure>
+                                    <figure class="image-box"><img src="{{ asset('frontend/assets/images/resource/place-1.jpg') }}" alt=""></figure>
                                     <div class="text">
                                         <h4><a href="categories.html">Los Angeles</a></h4>
                                         <p>10 Properties</p>
@@ -1117,7 +1117,7 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 masonry-item small-column all brand illustration print software logo">
                             <div class="place-block-one">
                                 <div class="inner-box">
-                                    <figure class="image-box"><img src="assets/images/resource/place-2.jpg" alt=""></figure>
+                                    <figure class="image-box"><img src="{{ asset('frontend/assets/images/resource/place-2.jpg') }}" alt=""></figure>
                                     <div class="text">
                                         <h4><a href="categories.html">San Francisco</a></h4>
                                         <p>08 Properties</p>
@@ -1128,7 +1128,7 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 masonry-item small-column all illustration marketing logo">
                             <div class="place-block-one">
                                 <div class="inner-box">
-                                    <figure class="image-box"><img src="assets/images/resource/place-3.jpg" alt=""></figure>
+                                    <figure class="image-box"><img src="{{ asset('frontend/assets/images/resource/place-3.jpg') }}" alt=""></figure>
                                     <div class="text">
                                         <h4><a href="categories.html">Las Vegas</a></h4>
                                         <p>29 Properties</p>
@@ -1139,7 +1139,7 @@
                         <div class="col-lg-8 col-md-6 col-sm-12 masonry-item small-column all brand marketing print software">
                             <div class="place-block-one">
                                 <div class="inner-box">
-                                    <figure class="image-box"><img src="assets/images/resource/place-4.jpg" alt=""></figure>
+                                    <figure class="image-box"><img src="{{ asset('frontend/assets/images/resource/place-4.jpg') }}" alt=""></figure>
                                     <div class="text">
                                         <h4><a href="categories.html">New York City</a></h4>
                                         <p>05 Properties</p>
@@ -1156,7 +1156,7 @@
 
         <!-- team-section -->
         <section class="team-section sec-pad centred bg-color-1">
-            <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-1.png);"></div>
+            <div class="pattern-layer" style="background-image: url({{ asset('frontend/assets/images/shape/shape-1.png') }});"></div>
             <div class="auto-container">
                 <div class="sec-title">
                     <h5>Our Agents</h5>
@@ -1165,7 +1165,7 @@
                 <div class="single-item-carousel owl-carousel owl-theme owl-dots-none nav-style-one">
                     <div class="team-block-one">
                         <div class="inner-box">
-                            <figure class="image-box"><img src="assets/images/team/team-1.jpg" alt=""></figure>
+                            <figure class="image-box"><img src="{{ asset('frontend/assets/images/team/team-1.jpg') }}" alt=""></figure>
                             <div class="lower-content">
                                 <div class="inner">
                                     <h4><a href="agents-details.html">Merrie Lewis</a></h4>
@@ -1181,7 +1181,7 @@
                     </div>
                     <div class="team-block-one">
                         <div class="inner-box">
-                            <figure class="image-box"><img src="assets/images/team/team-2.jpg" alt=""></figure>
+                            <figure class="image-box"><img src="{{ asset('frontend/assets/images/team/team-2.jpg') }}" alt=""></figure>
                             <div class="lower-content">
                                 <div class="inner">
                                     <h4><a href="agents-details.html">Parks Missie</a></h4>
@@ -1197,7 +1197,7 @@
                     </div>
                     <div class="team-block-one">
                         <div class="inner-box">
-                            <figure class="image-box"><img src="assets/images/team/team-3.jpg" alt=""></figure>
+                            <figure class="image-box"><img src="{{ asset('frontend/assets/images/team/team-3.jpg') }}" alt=""></figure>
                             <div class="lower-content">
                                 <div class="inner">
                                     <h4><a href="agents-details.html">Mariana Buenos</a></h4>
@@ -1213,7 +1213,7 @@
                     </div>
                     <div class="team-block-one">
                         <div class="inner-box">
-                            <figure class="image-box"><img src="assets/images/team/team-4.jpg" alt=""></figure>
+                            <figure class="image-box"><img src="{{ asset('frontend/assets/images/team/team-4.jpg') }}" alt=""></figure>
                             <div class="lower-content">
                                 <div class="inner">
                                     <h4><a href="agents-details.html">Stephen Fowler</a></h4>
@@ -1229,7 +1229,7 @@
                     </div>
                     <div class="team-block-one">
                         <div class="inner-box">
-                            <figure class="image-box"><img src="assets/images/team/team-5.jpg" alt=""></figure>
+                            <figure class="image-box"><img src="{{ asset('frontend/assets/images/team/team-5.jpg') }}" alt=""></figure>
                             <div class="lower-content">
                                 <div class="inner">
                                     <h4><a href="agents-details.html">Daisy Phillips</a></h4>
@@ -1251,7 +1251,7 @@
 
         <!-- cta-section -->
         <section class="cta-section bg-color-2">
-            <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-2.png);"></div>
+            <div class="pattern-layer" style="background-image: url({{ asset('frontend/assets/images/shape/shape-2.png') }});"></div>
             <div class="auto-container">
                 <div class="inner-box clearfix">
                     <div class="text pull-left">
@@ -1280,14 +1280,14 @@
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <figure class="image"><a href="blog-details.html"><img src="assets/images/news/news-1.jpg" alt=""></a></figure>
+                                    <figure class="image"><a href="blog-details.html"><img src="{{ asset('frontend/assets/images/news/news-1.jpg') }}" alt=""></a></figure>
                                     <span class="category">Featured</span>
                                 </div>
                                 <div class="lower-content">
                                     <h4><a href="blog-details.html">Including Animation In Your Design System</a></h4>
                                     <ul class="post-info clearfix">
                                         <li class="author-box">
-                                            <figure class="author-thumb"><img src="assets/images/news/author-1.jpg" alt=""></figure>
+                                            <figure class="author-thumb"><img src="{{ asset('frontend/assets/images/news/author-1.jpg') }}" alt=""></figure>
                                             <h5><a href="blog-details.html">Eva Green</a></h5>
                                         </li>
                                         <li>April 10, 2020</li>
@@ -1306,14 +1306,14 @@
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <figure class="image"><a href="blog-details.html"><img src="assets/images/news/news-2.jpg" alt=""></a></figure>
+                                    <figure class="image"><a href="blog-details.html"><img src="{{ asset('frontend/assets/images/news/news-2.jpg') }}" alt=""></a></figure>
                                     <span class="category">Featured</span>
                                 </div>
                                 <div class="lower-content">
                                     <h4><a href="blog-details.html">Taking The Pattern Library To The Next Level</a></h4>
                                     <ul class="post-info clearfix">
                                         <li class="author-box">
-                                            <figure class="author-thumb"><img src="assets/images/news/author-2.jpg" alt=""></figure>
+                                            <figure class="author-thumb"><img src="{{ asset('frontend/assets/images/news/author-2.jpg') }}" alt=""></figure>
                                             <h5><a href="blog-details.html">George Clooney</a></h5>
                                         </li>
                                         <li>April 09, 2020</li>
@@ -1332,14 +1332,14 @@
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <figure class="image"><a href="blog-details.html"><img src="assets/images/news/news-3.jpg" alt=""></a></figure>
+                                    <figure class="image"><a href="blog-details.html"><img src="{{ asset('frontend/assets/images/news/news-3.jpg') }}" alt=""></a></figure>
                                     <span class="category">Featured</span>
                                 </div>
                                 <div class="lower-content">
                                     <h4><a href="blog-details.html">How New Font Technologies Will Improve The Web</a></h4>
                                     <ul class="post-info clearfix">
                                         <li class="author-box">
-                                            <figure class="author-thumb"><img src="assets/images/news/author-3.jpg" alt=""></figure>
+                                            <figure class="author-thumb"><img src="{{ asset('frontend/assets/images/news/author-3.jpg') }}" alt=""></figure>
                                             <h5><a href="blog-details.html">Simon Baker</a></h5>
                                         </li>
                                         <li>April 28, 2020</li>
@@ -1362,13 +1362,13 @@
 
         <!-- download-section -->
         <section class="download-section bg-color-3">
-            <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-3.png);"></div>
+            <div class="pattern-layer" style="background-image: url({{ asset('frontend/assets/images/shape/shape-3.png') }});"></div>
             <div class="auto-container">
                 <div class="row clearfix">
                     <div class="col-lg-6 col-md-6 col-sm-12 image-column">
                         <div class="image-box">
-                            <figure class="image image-1 wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms"><img src="assets/images/resource/download-1.png" alt=""></figure>
-                            <figure class="image image-2 wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms"><img src="assets/images/resource/download-2.png" alt=""></figure>
+                            <figure class="image image-1 wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms"><img src="{{ asset('frontend/assets/images/resource/download-1.png') }}" alt=""></figure>
+                            <figure class="image image-2 wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms"><img src="{{ asset('frontend/assets/images/resource/download-2.png') }}" alt=""></figure>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 content-column">
@@ -1437,12 +1437,12 @@
                                 </div>
                                 <div class="post-inner">
                                     <div class="post">
-                                        <figure class="post-thumb"><a href="blog-details.html"><img src="assets/images/resource/footer-post-1.jpg" alt=""></a></figure>
+                                        <figure class="post-thumb"><a href="blog-details.html"><img src="{{ asset('frontend/assets/images/resource/footer-post-1.jpg') }}" alt=""></a></figure>
                                         <h5><a href="blog-details.html">The Added Value Social Worker</a></h5>
                                         <p>Mar 25, 2020</p>
                                     </div>
                                     <div class="post">
-                                        <figure class="post-thumb"><a href="blog-details.html"><img src="assets/images/resource/footer-post-2.jpg" alt=""></a></figure>
+                                        <figure class="post-thumb"><a href="blog-details.html"><img src="{{ asset('frontend/assets/images/resource/footer-post-2.jpg') }}" alt=""></a></figure>
                                         <h5><a href="blog-details.html">Ways to Increase Trust</a></h5>
                                         <p>Mar 24, 2020</p>
                                     </div>
@@ -1469,7 +1469,7 @@
             <div class="footer-bottom">
                 <div class="auto-container">
                     <div class="inner-box clearfix">
-                        <figure class="footer-logo"><a href="index.html"><img src="assets/images/footer-logo.png" alt=""></a></figure>
+                        <figure class="footer-logo"><a href="index.html"><img src="{{ asset('frontend/assets/images/footer-logo.png') }}" alt=""></a></figure>
                         <div class="copyright pull-left">
                             <p><a href="index.html">Realshed</a> &copy; 2021 All Right Reserved</p>
                         </div>
