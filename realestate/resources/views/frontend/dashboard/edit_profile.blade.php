@@ -1,5 +1,8 @@
 @extends('frontend.frontend_dashboard')
 @section('main')
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
 <!--Page Title-->
 <section class="page-title centred" style="background-image: url({{ asset('frontend/assets/images/background/page-title-5.jpg') }});">
     <div class="auto-container">
@@ -72,7 +75,8 @@
                            
 
 
-                                <form action="signin.html" method="post" class="default-form">
+                                <form action="{{ route('user.profile.store') }}" method="post" class="default-form"  enctype ="multipart/form-data">
+                                    @csrf
                                 <div class="form-group">
                                         <label>Username</label>
                                         <input type="text" name="username" value="{{ $userData->username }}">
@@ -96,7 +100,13 @@
 
                                     <div class="form-group">
                                         <label for="formFile" class="form-label">Default file input example</label>
-                                        <input class="form-control" name="photo" type="file" id="formFile">
+                                        <input class="form-control" name="photo" type="file" id="image">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="formFile" class="form-label"></label>
+                                        <img id="showImage" src="{{ (!empty($userData->photo)) ? url('upload/user_images/'.$userData->photo) : url('upload/no_image.jpg') }}" alt="profile') }}" alt=""style="width:100px; height: 100px;"></a></figure>
+
                                     </div>
 
 
@@ -148,4 +158,17 @@
     </div>
 </section>
 <!-- subscribe-section end -->
+
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#image').change(function(e){
+			var reader = new FileReader();
+			reader.onload = function(e){
+				$('#showImage').attr('src',e.target.result);
+			}
+			reader.readAsDataURL(e.target.files['0']);
+		});
+	});
+</script>
 @endsection
