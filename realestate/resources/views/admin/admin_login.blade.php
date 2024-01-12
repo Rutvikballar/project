@@ -10,7 +10,7 @@
 
 	<title>Admin Login Page </title>
 
-    <style>
+    <style type="text/css">
         .authlogin-side-wrapper{
             width: 100%;
             height: 100%;
@@ -64,11 +64,11 @@
                         @csrf
                       <div class="mb-3">
                         <label for="login" class="form-label">Email/Name/Phone</label>
-                        <input type="text" class="form-control" id="login" placeholder="Email">
+                        <input type="text" name="login" class="form-control" id="login"  placeholder="Email">
                       </div>
                       <div class="mb-3">
-                        <label for="userPassword" class="form-label">Password</label>
-                        <input type="password" name="password" class="form-control" id="userPassword" autocomplete="current-password" placeholder="Password">
+                        <label for="Password" class="form-label">Password</label>
+                        <input type="password" name="password" class="form-control" id="password" autocomplete="current-password" placeholder="Password">
                       </div>
                       <div class="form-check mb-3">
                         <input type="checkbox" class="form-check-input" id="authCheck">
@@ -79,7 +79,6 @@
                       <div>
                        
                         <button type="submit" class="btn btn-outline-primary btn-icon-text mb-2 mb-md-0">
-                          <i class="btn-icon-prepend" data-feather="twitter"></i>
                          Login
                         </button>
                       </div>
